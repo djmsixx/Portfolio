@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Derek Morin" />
+  <meta name="description" content="Portfolio of Derek Morin, Junior Developer and Computer Science student at Concordia University in Montreal." />
+  <meta property="og:title" content="Derek Morin — Junior Developer & CS Student" />
+  <meta property="og:description" content="Portfolio of Derek Morin, Junior Developer and Computer Science student at Concordia University in Montreal." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <title>Derek Morin — Junior Developer & CS Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner container">
+      <a href="#top" class="nav-brand">Derek Morin</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    </div>
+    <nav class="nav-mobile" id="navMobile" aria-label="Mobile">
+      <div class="container nav-mobile-inner">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container main">
+
+    <!-- INTRO -->
+    <section id="top" class="intro">
+      <div class="avatar" id="avatarWrap">
+        <img src="assets/Me.JPG" alt="" id="avatarImg" />
+        <span class="avatar-placeholder" id="avatarPh">Photo</span>
+      </div>
+      <h1 class="display">Derek Morin</h1>
+      <p class="muted intro-sub">Junior Developer · CS Student at Concordia</p>
+      <p class="lead">CS Student at Concordia University and Junior Developer based in Montreal</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section">
+      <h2 class="eyebrow" id="about">About</h2>
+      <div class="grid-2">
+        <div class="prose" lang="en">
+          <p>
+            I'm a student in Concordia University's class of 2027 and an aspiring
+            full-stack developer based in Montreal. I am pursuing an undergrad in 
+            Computer Science, while also expanding my skills with online courses 
+            during off periods. My roots are in software development, but I'm
+            currently exploring many different areas, such as AI development, 
+            raytracing/real-time 3D rendering, cybersecurity, and many more. I 
+            have also had the opportunity to work as a data analyst with Telus Digital.
+          </p>
+          <p>
+            Outside the editor, I love to expand my education with various online courses, 
+            to hopefully explore as many areas of Computer Science as possible. During my 
+            free time I enjoy competitive swimming, competitive esports, board games, and
+            challenging myself physically and mentally. 
+
+          </p>
+          <p class="muted">
+            Interests: web development, game development & design, competitive esports,
+            tabletop games, competitive swimming.
+          </p>
+        </div>
+        <div class="prose" lang="fr">
+          <p>
+            Je suis étudiant à l'Université Concordia, promotion 2027, et développeur
+            full-stack en devenir basé à Montréal. Je poursuis un baccalauréat en
+            informatique, tout en perfectionnant mes compétences avec des cours en
+            ligne pendant mes périodes libres. Mes racines sont dans le développement
+            logiciel, mais j'explore actuellement plusieurs autres domaines, comme le
+            développement de l'IA, le ray tracing et le rendu 3D en temps réel, ainsi
+            que la cybersécurité, parmi d'autres. J'ai également eu l'occasion de
+            travailler comme analyste de données chez Telus Digital.
+          </p>
+          <p>
+            En dehors de l'éditeur, j'aime enrichir mon éducation avec divers cours en
+            ligne, dans l'espoir d'explorer le plus de domaines possibles en
+            informatique. Pendant mon temps libre, j'apprécie la natation compétitive,
+            les esports compétitifs, les jeux de société, et me pousser à me dépasser
+            physiquement et mentalement.
+          </p>
+          <p class="muted">
+            Intérêts : développement web, conception et développement de jeux, esports
+            compétitif, jeux de société, natation compétitive.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section">
+      <h2 class="eyebrow" id="skills">Skills</h2>
+      <dl class="stack-md">
+        <div class="row">
+          <dt class="row-meta">Languages</dt>
+          <dd class="row-body">JavaScript, HTML, CSS, C, C++, Java</dd>
+        </div>
+        <div class="row">
+          <dt class="row-meta">Frameworks & Tools</dt>
+          <dd class="row-body">React, Node.js, MongoDB, Docker, Git, OpenGL</dd>
+        </div>
+        <div class="row">
+          <dt class="row-meta">Concepts</dt>
+          <dd class="row-body">Object-oriented programming, data structures & algorithms, web development, ray tracing</dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- WORK -->
+    <section class="section">
+      <h2 class="eyebrow" id="work">Work</h2>
+      <ol class="list-reset stack-lg">
+        <li class="row">
+          <div class="row-meta">2026 — Present</div>
+          <div>
+            <div class="row-title"><span class="strong">Online Data Analyst</span><span class="muted"> · Telus Digital</span></div>
+            <ul class="bullets">
+              <li>— Evaluate and annotate search and AI results to improve model quality.</li>
+              <li>— Apply detailed guidelines across multilingual datasets.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="row">
+          <div class="row-meta">2019 — 2024</div>
+          <div>
+            <div class="row-title"><span class="strong">Swim Instructor</span><span class="muted"> · Montreal Institute of Swimming</span></div>
+            <ul class="bullets">
+              <li>— Taught swimming to individuals of all ages and abilities in private and semi-private lessons.</li>
+              <li>— Managed all client scheduling independently and developed strategies for swimmers with special needs.</li>
+              <li>— Worked alongside coaches for a competitive swim team.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="row">
+          <div class="row-meta">2023 — 2024</div>
+          <div>
+            <div class="row-title"><span class="strong">Busboy</span><span class="muted"> · Elixor</span></div>
+            <ul class="bullets">
+              <li>— Supported a fast-paced service team in a high-volume restaurant.</li>
+              <li>— Quickly became knowledgeable in all aspects of the restaurant floor.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section">
+      <h2 class="eyebrow" id="projects">Projects</h2>
+      <ol class="list-reset stack-xl" id="projectList"></ol>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section">
+      <h2 class="eyebrow" id="education">Education</h2>
+      <ol class="list-reset stack-md">
+        <li class="row">
+          <div class="row-meta">2023 — Present</div>
+          <div class="row-title"><span class="strong">B.Sc. Computer Science</span><span class="muted"> · Concordia University</span></div>
+        </li>
+        <li class="row">
+          <div class="row-meta">2025 — Present</div>
+          <div class="row-title"><span class="strong">Full-Stack JavaScript Bootcamp</span><span class="muted"> · Personal Studies</span></div>
+        </li>
+      </ol>
+
+      <h3 class="eyebrow eyebrow-sub">Certifications</h3>
+      <ul class="cert-grid list-reset" id="certGrid"></ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section">
+      <h2 class="eyebrow" id="contact">Contact</h2>
+      <ul class="list-reset stack-sm">
+        <li class="row">
+          <span class="row-meta">Email</span>
+          <a class="link" href="mailto:morinjderek@gmail.com">morinjderek@gmail.com</a>
+        </li>
+        <li class="row">
+          <span class="row-meta">GitHub</span>
+          <a class="link" href="https://github.com/djmsixx" target="_blank" rel="noreferrer">github.com/djmsixx</a>
+        </li>
+        <li class="row">
+          <span class="row-meta">LinkedIn</span>
+          <a class="link" href="https://linkedin.com/in/derek-morin-52269a381" target="_blank" rel="noreferrer">linkedin.com/in/derek-morin-52269a381</a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      © <span id="year"></span> Derek Morin
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
