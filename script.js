@@ -93,7 +93,7 @@ var projects = [
     title: "Personal Portfolio Website",
     description: "Designed and built a personal portfolio website from scratch without any frameworks or build tools. Features a bilingual about section, data-driven project and certification rendering, a responsive mobile nav, and placeholder support for images and badges. Deployed as a static site.",
     stack: "HTML · CSS · JavaScript",
-    github: "https://google.com",
+    github: "https://github.com/djmsixx/Portfolio.git",
     images: []
   },
   {
