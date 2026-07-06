@@ -93,21 +93,21 @@ var projects = [
     title: "Personal Portfolio Website",
     description: "Designed and built a personal portfolio website from scratch without any frameworks or build tools. Features a bilingual about section, data-driven project and certification rendering, a responsive mobile nav, and placeholder support for images and badges. Deployed as a static site.",
     stack: "HTML · CSS · JavaScript",
-    github: "https://github.com/djmsixx",
+    github: "https://github.com/djmsixx/Portfolio.git",
     images: []
   },
   {
     title: "Ray Tracer",
     description: "A ray tracer built from scratch in C++, supporting Blinn-Phong shading, soft shadows from area light sources, and anti-aliasing via stratified sampling. Parses scene data from JSON (geometry, cameras, lights, render settings) and outputs rendered images. Built using the Eigen library for vector/matrix math.",
     stack: "C++ · Eigen · JSON Parsing",
-    github: "https://github.com/djmsixx",
+    github: "https://github.com/djmsixx/Raytracer.git",
     images: ["assets/test_scene1B.png", "assets/test_scene3B_aa.png", "assets/cornell_box.png"]
   },
   {
     title: "OpenGL Real-Time Renderer",
     description: "A real-time 3D rendering engine in OpenGL featuring four custom shaders (Phong, Flat, Circle, and Voronoi) with interactive keyboard-driven mode switching. Extended with a mouse-picking interface that projects triangles into screen space, computes barycentric coordinates under the cursor, and identifies the closest intersected triangle in real time.",
     stack: "C++ · OpenGL · GLSL · GLM",
-    github: "https://github.com/djmsixx",
+    github: "https://github.com/djmsixx/OpenGL-Real-Time-Renderer.git",
     images: ["assets/teapot.png", "assets/voronoi.png", "assets/circle.png"]
   },
 ];
