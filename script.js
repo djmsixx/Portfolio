@@ -36,7 +36,7 @@ var certs = [
   { name: "AWS Cloud Quest: Cloud Practitioner", issuer: "Amazon Web Services Training and Certification", date: "06/06/2026", badge: "assets/CloudPractitioner.png", url: "https://www.credly.com/badges/4d8965ca-d504-4a2a-a73b-e4fec435ce4a/public_url" },
   { name: "AWS Cloud Quest: Generative AI Practitioner", issuer: "Amazon Web Services Training and Certification", date: "12/06/2026", badge: "assets/AIPractitioner.png", url: "https://www.credly.com/badges/4329c261-3be8-4589-85c4-2d8d85d197d5/public_url" },
   { name: "Google AI Essentials", issuer: "Google", date: "16/05/2026", badge: "assets/GoogleBadge.png", url: "https://coursera.org/verify/specialization/CEVL9SQNATQ4" },
-  { name: "Intro to Cybersecurity", issuer: "Cisco", date: "In progress", badge: "", url: "" },
+  { name: "Intro to Cybersecurity", issuer: "Cisco", date: "26/7/2026", badge: "assets/introCybersecurity.png", url: "https://www.credly.com/badges/445b62e7-4113-4e67-92b3-3c7ec2ae8e30/public_url" },
 ];
 
 (function () {
