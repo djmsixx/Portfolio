@@ -61,6 +61,12 @@ ul, ol { list-style: none; }
   align-items: center;
   justify-content: space-between;
 }
+.nav-logo {
+  height: 2.4rem;
+  width: auto;
+  display: block;
+}
+
 .nav-brand { font-size: .875rem; font-weight: 500; letter-spacing: -.01em; }
 .nav-brand:hover { color: var(--accent); }
 
